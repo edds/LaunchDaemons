@@ -6,13 +6,15 @@ When developing I hate having to start and stop dependancies so I can work so in
 let these guys take the pain away for me.
 
 They should be placed in `/Library/LaunchDaemons` I have them `chown`'d to `root:wheel` I am 
-not sure if that is important or not.
+not sure if that is important or not. You will need to update the files to use your own home 
+folder.
 
 You can manually add them to the lanuchd by calling 
 `sudo launchdctl load uk.co.e26.[...].plist`. They should start as soon as they are added to 
 the daemon. If for what ever reason they have failed to start you can kick them by using 
 `sudo launchctl start uk.co.e26.[...]` and stop with the appropriately named 
 `sudo launchctl stop uk.co.e26.[...]`.
+
 
 # Licence
 
