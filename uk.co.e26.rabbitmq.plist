@@ -8,7 +8,7 @@
   <key>EnvironmentVariables</key>
   <dict>
     <key>PATH</key>
-    <string>/usr/bin:/usr/local/bin</string>
+    <string>/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/sbin</string>
     <key>HOME</key>
     <string>/Users/edd</string>
   </dict>
@@ -16,7 +16,6 @@
   <key>ProgramArguments</key>
   <array>
     <string>rabbitmq-server</string>
-    <string>-detached</string>
   </array>
 
   <key>RunAtLoad</key>

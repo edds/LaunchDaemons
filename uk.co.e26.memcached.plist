@@ -16,7 +16,6 @@
   <key>ProgramArguments</key>
   <array>
     <string>/usr/bin/memcached</string>
-    <string>-d</string>
     <string>-u</string>
     <string>root</string>
   </array>
