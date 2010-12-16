@@ -10,7 +10,7 @@ not sure if that is important or not. You will need to update the files to use y
 folder.
 
 You can manually add them to the lanuchd by calling 
-`sudo launchdctl load uk.co.e26.[...].plist`. They should start as soon as they are added to 
+`sudo launchctl load uk.co.e26.[...].plist`. They should start as soon as they are added to 
 the daemon. If for what ever reason they have failed to start you can kick them by using 
 `sudo launchctl start uk.co.e26.[...]` and stop with the appropriately named 
 `sudo launchctl stop uk.co.e26.[...]`.
